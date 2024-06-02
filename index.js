@@ -62,3 +62,20 @@ function writeToFile(fileName, data) {
         console.log("Congratulations, the (Generated)README.md file has beeen successfully created!");
     });
 }
+
+// Function to initialize the app.
+async function init() {
+    console.log("Starting the (Generated)README.md generator...");
+
+    // Prompt the user for answers.
+    const answers = await inquirer.prompt(questions);
+
+    // Generate the README content.
+    let readmeContent = generatorMarkdown(answers);
+
+        // Write the README file.
+        writeToFile("(Generated)README.md", readmeContent);
+}
+
+// Call the init function to start the app.
+init();

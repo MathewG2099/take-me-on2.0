@@ -82,3 +82,12 @@ function generateMarkdown(data) {
     ${data.test}
     
     ${renderLicenseSection(data.license)}
+
+    ## Questions:
+    For additonal questions or open feedback, feel free to contact me at my email:${data.email}. 
+    You can also find me on Github at [${data.github}](https://github.com/${data.github}).
+    
+    © 2024 Confidential and Proprietary. All Rights Reserved.`;
+  }
+  
+  module.exports = generateMarkdown;

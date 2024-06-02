@@ -52,3 +52,13 @@ const questions = [
         message: "Please, enter your email address:",
     },
 ];
+
+// Function to write the README file.
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Congratulations, the (Generated)README.md file has beeen successfully created!");
+    });
+}

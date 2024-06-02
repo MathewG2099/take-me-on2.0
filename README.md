@@ -34,7 +34,12 @@ SO THAT I can quickly create a professional README for a new project
     
    
  ## Questions:
+ 
     For additonal questions or open feedback, feel free to contact me at my email:fireacademy2099@gmail.com. 
     You can also find me on Github at [https://github.com/MathewG2099](https://github.com/https://github.com/MathewG2099).
     
     © 2024 Confidential and Proprietary. All Rights Reserved.
+
+    ![2](https://github.com/MathewG2099/take-me-on2.0/assets/160433914/6f3b7d15-016f-4107-a874-d971e286b482)
+
+![Captura](https://github.com/MathewG2099/take-me-on2.0/assets/160433914/6ff9039a-88c0-4d65-9991-4e20a0a43893)
